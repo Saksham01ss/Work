@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+
+</head>
+<body style="background-color:powderblue;">
+        <h2>This is my sample form</h2>
+    <form action="backend.php">
+        <div>
+            Name:<input type="text" name="MyName">
+        </div>
+        <br>
+        <div>
+            Age:<input type="text" name="MyAge">
+        </div>
+        <br>
+        <div>
+            Email:<input type="email" name="MyEmail">
+        </div>
+        <br>
+        <div>
+            Date:<input type="date" name="CurrentDate">
+        </div>
+        <br>
+        <div>
+            Gender:Male<input type="radio" name="MyGender">
+                   Female<input type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            <label for="Branch">Branch</label>
+            <select name="MyBranch" id="Branch">
+                <option value="CSE">CSE</option>
+                <option value="COE">COE</option>
+                <option value="ECE">ECE</option>
+                <option value="ELE">ELE</option>
+            </select>
+        </div>
+        <div>
+            Write about yourself<textarea name="MyText" cols="30" rows="10">
+
+            </textarea>
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="reset now">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit now">
+        </div>
+    </form>
+    
+</body>
+</html>
